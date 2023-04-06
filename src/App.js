@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App(props) {
+function App() {
   return (
     <div>
-      Hello World! {props.name}
+      Hello World!
     </div>
   );
 }
